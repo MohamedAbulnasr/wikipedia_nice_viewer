@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<!-- Copy rights reserved for "Mohamed Abulnasr". Before reuse this code email me on objectiveerp@gmail.com -->
+		<title>Wikipedia Viewer</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Wikipedia Nice Viewer">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron|Satisfy|Permanent+Marker|Righteous|Saira">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="w_nice_viewer.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+
+<div class="container-fluid">
+			<div class="row text-center">
+					<div class="col-xs-12 label label-info hd">Wikipedia Nice Viewer</div>
+					<br><br>
+			</div>
+
+		<div class="row col-xs-12">
+			<form action="" method="GET" onsubmit="getResults(); return false;">
+				<div class="text-center col-xs-12 input-group">
+					<input type="text" name="searcher" id="searcher" class="form-control input-lg" placeholder="Write here a criteria ..." />
+					<div class="input-group-btn">
+						<button class="btn btn-info input-lg">
+							<img id="imgw" src="http://icons.iconarchive.com/icons/sykonist/popular-sites/128/Wikipedia-globe-icon.png" alt="wiki">
+						</button>
+						<button type="reset" class="btn btn-danger input-lg">
+							X
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+			<div class="row col-xs-12 text-center">
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+					<div class="text-center btn btn-info inLuck"><i class="fa fa-magic"></i> get by luck ..!</div>					
+				</a>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<ul id="list" type="none" >
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer class="text-center label label-default col-xs-12">
+			<span style="vertical-align:middle;color:lightgreen;font-size:14px;padding-right:60px;">&nbsp;&nbsp;
+		      by Mohamed Abulnasr
+		            &nbsp;<a href="https://www.fb.com/objectivesystems"><img id="forimg" src="https://raw.githubusercontent.com/FutureForObjectiveSystems/Albara3im/master/minlogo2.png" width="56px"
+		            style="border:4px ;vertical-align:middle;"
+		            />
+		        </a>&nbsp;
+		      Objective Systems
+		  &nbsp;</span>
+  		</footer>
+<script src="w_nice_viewer.js"></script>
+</body>
+</html>
