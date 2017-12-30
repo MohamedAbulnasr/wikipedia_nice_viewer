@@ -1,1 +1,36 @@
+			.hd{
+				font-family:Orbitron;
+				font-size: medium;
+			}
+			.inLuck{
+				font-family:Righteous;
+				font-size: large;
+				margin-top:2%;
+				position: relative;
+				border:1px solid yellow;
+			}
+			#imgw{
+				height: 100%;
+			}
+			.fa-magic{
+				color:yellow;
+			}
+			.lst{
+				background: lightcyan;
+				padding: 6px;
+				margin-top: 1%;
+				margin-bottom: 1%;
+			}
+		.lst h3{
+				text-decoration-line: underline;
+			}
 
+.lst a:hover{
+				text-decoration-line: none;
+				color: darkblue;
+			}
+			.lst:hover{
+				background: linear-gradient(135deg, bisque 50%, cyan 150%);
+				box-shadow: 2px 2px gray;
+				margin-left: -2px;
+			}
